@@ -4,12 +4,12 @@ Common issues and their solutions when working with Claude Code.
 
 ---
 
-## 🔴 Installation Issues
+## 🔴 Installation Issues 
 
-### Problem: Claude Code not found after installation
+# Problem: Claude Code not found after installation
 **Symptoms:** `command not found: claude-code`
 
-**Solutions:**
+* Solutions:
 - Check if installation completed successfully
 - Verify PATH environment variable
 - Restart terminal
@@ -19,18 +19,18 @@ Common issues and their solutions when working with Claude Code.
 
 ## 🟡 Session Issues
 
-### Problem: Session won't resume
+# Problem: Session won't resume
 **Symptoms:** Cannot resume previous session
 
-**Solutions:**
+* Solutions:
 - Check session ID
 - Verify session still exists
 - Try starting new session
 
-### Problem: Context too large
+# Problem: Context too large
 **Symptoms:** "Context limit exceeded" error
 
-**Solutions:**
+* Solutions:
 - Use `/compact` to compress history
 - Use `/clear` to start fresh
 - Remove unnecessary files from context
@@ -39,13 +39,13 @@ Common issues and their solutions when working with Claude Code.
 
 ## 🟢 Performance Issues
 
-### Problem: Slow responses
+# Problem: Slow responses
 **Possible Causes:**
 - Large context window
 - Many files in context
 - Network issues
 
-**Solutions:**
+* Solutions:
 - Compact context regularly
 - Add only necessary directories
 - Check internet connection
@@ -54,24 +54,13 @@ Common issues and their solutions when working with Claude Code.
 
 ## 📝 Configuration Issues
 
-### Problem: CLAUDE.md not being recognized
-**Solutions:**
+# Problem: CLAUDE.md not being recognized
+* Solutions:
 - Check file location (should be in project root)
 - Verify file syntax
 - Run `/init` to regenerate
 
 ---
 
-## 🆘 Getting Help
-
-If issues persist:
-1. Check official documentation
-2. Search course materials
-3. Ask in team chat
-4. Check GitHub issues
-
----
-
-*This guide will be updated with specific issues and solutions encountered during learning.*
 
 **Last Updated:** January 22, 2026
